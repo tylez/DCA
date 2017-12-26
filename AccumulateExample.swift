@@ -4,6 +4,7 @@ extension Array {
         for item in self
             result.append(yield(item))
         }
+    var final: [S] = [S]()
         return result
     }
 }
